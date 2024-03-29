@@ -1,0 +1,37 @@
+.main{
+    
+}
+.div1{
+    border: solid;
+  
+    position: absolute;
+    width: 350px;
+    height: 300px;
+   
+    
+
+}
+.div2{
+    border: solid;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 250px;
+    height: 200px;
+   
+}
+.div3{
+    border: solid;
+    position: absolute;
+    margin-top: 400px;
+    width: 800px;
+    height: 200px;
+
+}
+.div4{
+    border: solid;
+    position: absolute;
+margin-left: 600px;
+width: 100px;
+height: 700px;
+}
