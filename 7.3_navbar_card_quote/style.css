@@ -1,0 +1,8 @@
+.greeting-card{
+    background-color: bisque;
+    border: solid hsla(210, 100%, 50%, 0.163)  ; 
+    font-style: oblique;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
