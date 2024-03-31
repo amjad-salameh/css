@@ -1,0 +1,13 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(222, 19, 19);
+    position: relative;
+}
+div::after{
+content: attr(div);
+    height: 500px;
+    width: 250px;
+    background-color: rgb(93, 21, 57);
+    position: absolute;
+}
