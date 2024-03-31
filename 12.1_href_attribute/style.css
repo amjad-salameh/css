@@ -1,0 +1,4 @@
+p a::after{
+   content: attr(href);
+}
+
