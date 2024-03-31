@@ -1,0 +1,16 @@
+div{
+    width: 500px;
+    height: 500px;
+   
+    background-color:blue;
+}
+div::after{
+    content: '';
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    background-color: red;
+}
+div:hover::after{
+    background-color: blueviolet;
+}
