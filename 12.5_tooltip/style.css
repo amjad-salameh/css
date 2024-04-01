@@ -1,0 +1,9 @@
+p:first-child i:hover{
+    color: blue;
+}
+p:first-child .s:hover{
+    color: red;
+}
+p:first-child .d:hover{
+    color: green;
+}
