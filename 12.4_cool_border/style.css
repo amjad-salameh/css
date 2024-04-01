@@ -1,0 +1,36 @@
+div{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: black;
+}
+div::after{
+    content:'Cool Border' ;
+    position: absolute;
+    border: solid  red;
+   display: flex;
+   align-items: center;
+   margin-left: 250px;
+   margin-top: 250px;
+   
+    width: 200px;
+    height: 200px;
+   
+    color: white;
+    font-size: large;
+}
+div::before{
+    content:'Cool Border' ;
+    position: absolute;
+    border: solid  red;
+   display: flex;
+   align-items: center;
+   margin-left: 250px;
+   margin-top: 250px;
+   
+    width: 200px;
+    height: 200px;
+   
+    color: white;
+    font-size: large;
+}
