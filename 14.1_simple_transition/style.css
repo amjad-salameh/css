@@ -1,17 +1,30 @@
-div{
-    width: 400px;
-    height: 400px;
-    background-color: red;
+body{
+    width: 150vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items:center;
+    height: 100vh;
 
-    transition:4s ;
+}
+.div1{
+    width: 500px;
+    height: 500px;
+
+
+  
+
+    
+    background-color: rgb(3, 22, 30);
             
 }
-div:hover{
-    width: 400px;
-    height: 400px;
-    background-color: blue;
-    color: white;
+.div2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(55, 55, 73);
+    transition: width 4s ;
+
+
+}
+.div2:hover{
+width: 0;
 }
