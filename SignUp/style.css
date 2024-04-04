@@ -1,0 +1,65 @@
+/* Sig up/create an account (25) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sign-up-form{
+    box-shadow: 0 0 3px rgba(0,0, 0,0);
+    background: #fff;
+    padding: 20px;
+    margin: 8%  auto 0;
+ 
+ /* height: 550px; */
+ border-radius: 10px;
+ width: 500px;
+
+ 
+
+}
+
+.head{
+text-align: center;
+
+}
+.color{
+    color:#abadaf ;
+}
+.input-box{
+
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+  
+    
+}
+button{
+color: #fff;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+font-size: 15px;
+margin: 10px 0;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.signup-btn{
+    background-color: #abadaf;
+}
+.foot{
+    text-align: center;
+}
+img{
+ margin: 8%  auto 0;
+ 
+}

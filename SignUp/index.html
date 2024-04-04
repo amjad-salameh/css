@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        <img class="img1" width="250px"  src="image1.png" alt="">
+
+    <div class="sign-up-form">
+        <!-- <img src="icons8-user-50.png" alt=""> -->
+      <header class="head"><h1>Create an account</h1>
+     <p>Alerady have an acount?<a href="">Log in</a></p>
+         <input id="for personal" type="checkbox" />
+        <label for="for personal">For personal</label><br />
+        <input id="for business" type="checkbox" />
+        <label for="for business">For business</label></header>
+     
+      <form class="color">
+   
+        <label for="email">Enter addess</label><br />
+        <input
+          id="email"
+          type="email"
+          class="input-box"
+          placeholder="Your Email"
+        /><br />
+        <label for="password">password</label><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="password"
+          class="input-box"
+        /><br />
+        <label for="country">Country of residence</label><br />
+     <input class="input-box" list="contries" name="cont">
+          <datalist id="contries">
+            <option value="China">
+            <option value="Spain">
+            <option value="Italy"n>
+            <option value="Palestine">
+            <option value="Chiana">
+          </datalist>
+
+        <br>
+        <button type="button" class="signup-btn">Creat an account</button>
+        <p class="foot">Or,continue with <a href="">google</a> or <a href="">facebook</a></p>
+      </form>
+    </div>
+  </body>
+</html>
