@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+body {
+
+margin: 0 auto;
+padding:1rem;
+width: 1200px; 
+ max-width: 100%;
+
+}
+
+/*----------------------------------lang--------------------------------*/
+.lang  a{
+  
+    color: black;
+    font-size: xx-small;
+    text-decoration: none;
+  
+
+}
+.lang ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 5px;
+
+
+}
+.lang ul li{
+    margin: 0 1rem ;
+}
+ .lang .right li a{
+    color: white;
+    border: solid 1px white;
+    background-color: rgb(129, 129, 231);
+    font-size: small;
+    padding: 5px;
+}
+.lang .right 
+{
+    display: flex;
+    justify-content: right;
+}
+.title   {
+text-align:center;
+
+
+}
+
+/*--------------------------------------------container-----------------------*/
+.container a{
+    text-decoration: none;
+    color: black;
+      font-size:small;
+   
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+
+.container ul li{
+    margin: 0 1rem ;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+/*------------------------main---------------------------------------*/
+.main{
+    display: grid;
+    height:800px;
+   width: 800px;
+  margin: 10px ;
+
+
+   grid-template-areas: 
+"section1 section2 "
+
+" section3 section4"
+  ;
+}
+ .section1{
+    grid-area: section1;
+    border:1px solid rgb(142, 138, 138);
+   
+
+    width: 800px;
+   
+}
+.section2{
+    grid-area: section2;
+    display: flex;
+}
+.section3{
+    grid-area: section3;
+    border:1px solid rgb(142, 138, 138);
+
+}
+
+.section4{
+    grid-area: section4;
+    border:1px solid rgb(142, 138, 138);
+
+}
+
+.section8{
+    border: solid 1px black ;
+    width: 500px;
+    grid-area: section8;
+  
+}
+
+/*--------------------------------------media------------------------------*/
+@media screen and (min-width: 768px){
+.row{
+    flex-direction: column;
+}
+.col:not(:last-child){
+    border-right: none;
+}
+
+}
